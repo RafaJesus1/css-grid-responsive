@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.css-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 5px;
+}
+
+.discografia-baco {
+    grid-column: 3 / 4;
+}
+
+.bluesman {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+}
+
+.esu {
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+}
+
+.qvvjfa {
+    grid-row: 4 / 5;
+    grid-column: 3 / 4;
+}
+
+
+img {
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url(fonts/Lora-VariableFont_wght.ttf);
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Lora';
+    text-align: center;
+}
